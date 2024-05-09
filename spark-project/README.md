@@ -1,5 +1,7 @@
 
 ****Provider Report****
+
+
 **Overview**
 The Provider Report project is a Spark application developed to analyze healthcare provider data and generate reports on the total number of visits per provider and per month. This application utilizes Apache Spark's DataFrame API to efficiently process large datasets and perform aggregations.
 
