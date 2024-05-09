@@ -1,5 +1,5 @@
 
-****Provider Report****
+******Provider Report**********
 
 
 **Overview**
@@ -31,7 +31,8 @@ visits.csv: Contains information about visits made to healthcare providers, incl
          **spark-submit --class ProviderReport --master 'local[*]' /Users/saikumarreddynannuru/spark-project/target/scala-2.12/spark-project_2.12-0.1.0-SNAPSHOT.jar**
 
 6. View the generated reports in the **output** directory. The reports will be partitioned by provider specialty (total_visits_per_provider) and by month (visits_per_provider_per_month).
-7. 
+
+   
 **Functionality**
 
 **Problem 1:** Total Number of Visits per Provider
