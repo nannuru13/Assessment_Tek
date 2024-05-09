@@ -5,7 +5,9 @@
 **Overview**
 The Provider Report project is a Spark application developed to analyze healthcare provider data and generate reports on the total number of visits per provider and per month. This application utilizes Apache Spark's DataFrame API to efficiently process large datasets and perform aggregations.
 
+
 **Requirements**
+
 To run the Provider Report application, you need:
 
 Apache Spark (version 3.5.1)
@@ -13,7 +15,9 @@ java version "16.0.2" 2021-07-20
 Scala (version 3.4.1)
 
 **Input data files**:
+
 providers.csv: Contains information about healthcare providers, including their IDs, specialties, and names.
+
 visits.csv: Contains information about visits made to healthcare providers, including visit IDs, provider IDs, and dates of service.
 
 **Usage**
