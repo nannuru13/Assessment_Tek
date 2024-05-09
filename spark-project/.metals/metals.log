@@ -1,0 +1,835 @@
+2024.05.09 15:09:46 INFO  Started: Metals version 1.3.0 in folders '/Users/saikumarreddynannuru/spark-project' for client Visual Studio Code 1.78.0.
+2024.05.09 15:09:49 INFO  Started: Metals version 1.3.0 in folders '/Users/saikumarreddynannuru/spark-project' for client Visual Studio Code 1.78.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@6fa222a3]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6bb8abc9]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6fa222a3]
+2024.05.09 15:09:49 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.09 15:09:55 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.05.09 15:09:57 INFO  Running List(/Users/saikumarreddynannuru/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%252B9/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.11_9.tar.gz/jdk-17.0.11+9/Contents/Home/bin/java, -cp, /Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.2.0/cli_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M26/case-app_3-2.1.0-M26.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.9/coursier-launcher_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.9/coursier-proxy-setup-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.12/slf4j-nop-2.0.12.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.3/core_2.13-3.9.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.2.0/build-module_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.2.0/config_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.2.0/scala3-graal_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.2.0/specification-level_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M26/case-app-annotations_3-2.1.0-M26.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M26/case-app-util_3-2.1.0-M26.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.3.1/sourcecode_3-0.3.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.13/scala-library-2.13.13.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.9/coursier-cache_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.9/coursier-core_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.11.0/scala-collection-compat_3-2.11.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.6.0/core_2.13-1.6.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.1/trees_2.13-4.9.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.4.17/test-runner_3-0.4.17.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.9.3/os-lib_3-0.9.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.8.1/pprint_3-0.8.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.15.0/scalajs-sbt-test-adapter_2.13-1.15.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.2.0/options_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.2.0/directives_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.2.0/scala-cli-bsp-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.2.0/test-runner_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.2.0/tasty-lib_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.9/coursier-util_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.2.0/scala-xml_2.13-2.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.1/common_2.13-4.9.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.4.17/tools_3-0.4.17.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.0.0/geny_3-1.0.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.4.0/fansi_3-0.4.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.5.5/bloop-config_2.13-1.5.5.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.2.0/core_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.0/using_directives-1.1.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.2.0/build-macros_3-1.2.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.15/scalapb-runtime_2.13-0.11.15.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.4.17/nir_3-0.4.17.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.4.17/util_3-0.4.17.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_3/1.0.3/scala-parallel-collections_3-1.0.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.11-sc-3/bloop-rifle_2.13-1.5.11-sc-3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.9/coursier-jvm_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.15/lenses_2.13-0.11.15.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.9/coursier_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.9/coursier-env_2.13-2.1.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, /Users/saikumarreddynannuru/spark-project)
+2024.05.09 15:09:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:10:01 INFO  Connected to Scala CLI server v1.2.0
+2024.05.09 15:10:01 INFO  compiling spark-project_f4dd477a3a (1 scala source)
+2024.05.09 15:10:02 INFO  no build target found for /Users/saikumarreddynannuru/spark-project/ProviderReport.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.09 15:10:05 INFO  time: indexed workspace in 2.7s
+2024.05.09 15:10:11 INFO  no build target found for /Users/saikumarreddynannuru/spark-project/ProviderReport.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.09 15:10:11 INFO  Scala CLI started for /Users/saikumarreddynannuru/spark-project
+2024.05.09 15:10:11 WARN  no build tool detected in workspace '/Users/saikumarreddynannuru/spark-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.05.09 15:10:11 WARN  Build server is not auto-connectable.
+2024.05.09 15:10:11 INFO  compiling spark-project_f4dd477a3a (1 scala source)
+2024.05.09 15:10:11 INFO  time: compiled spark-project_f4dd477a3a in 0.49s
+2024.05.09 15:10:11 INFO  compiling spark-project_f4dd477a3a (1 scala source)
+2024.05.09 15:10:12 INFO  time: compiled spark-project_f4dd477a3a in 0.36s
+2024.05.09 15:15:20 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:21 INFO  Detected new build tool in /Users/saikumarreddynannuru/spark-project
+2024.05.09 15:15:21 WARN  no build target for: /Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:21 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:35 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:41 WARN  no build target for: /Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:41 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:41 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:43 INFO  running '/usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.09 15:15:43 INFO  skipping build import with status 'Dismissed'
+2024.05.09 15:15:43 WARN  no build target for: /Users/saikumarreddynannuru/spark-project/project/metals.sbt
+2024.05.09 15:15:43 WARN  no build target for: /Users/saikumarreddynannuru/spark-project/project/project/metals.sbt
+2024.05.09 15:15:43 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:44 INFO  [info] Updated file /Users/saikumarreddynannuru/spark-project/project/build.properties: set sbt.version to 1.10.0
+2024.05.09 15:15:44 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17.0.11)
+2024.05.09 15:15:45 INFO  skipping build import with status 'Dismissed'
+2024.05.09 15:15:45 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:15:46 INFO  [info] loading settings for project spark-project-build-build from metals.sbt ...
+2024.05.09 15:15:46 INFO  [info] loading project definition from /Users/saikumarreddynannuru/spark-project/project/project
+2024.05.09 15:15:48 INFO  [info] loading settings for project spark-project-build from metals.sbt ...
+2024.05.09 15:15:48 INFO  [info] loading project definition from /Users/saikumarreddynannuru/spark-project/project
+2024.05.09 15:15:50 INFO  [success] Generated .bloop/spark-project-build.json
+2024.05.09 15:15:50 INFO  [success] Total time: 2 s, completed May 9, 2024, 3:15:50 PM
+2024.05.09 15:15:50 INFO  [error] [/Users/saikumarreddynannuru/spark-project/build.sbt]:1: ';' expected but ',' found.
+2024.05.09 15:15:50 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2024.05.09 15:15:51 INFO  time: ran 'sbt bloopInstall' in 7.99s
+2024.05.09 15:15:51 ERROR sbt command failed: /usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.05.09 15:18:02 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:18:03 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:18:11 WARN  no build target for: /Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:18:11 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:18:11 WARN  Could not find semantic tokens for: file:///Users/saikumarreddynannuru/spark-project/build.sbt
+2024.05.09 15:18:12 INFO  running '/usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.05.09 15:18:14 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17.0.11)
+2024.05.09 15:18:14 INFO  [info] loading settings for project spark-project-build-build from metals.sbt ...
+2024.05.09 15:18:15 INFO  [info] loading project definition from /Users/saikumarreddynannuru/spark-project/project/project
+2024.05.09 15:18:15 INFO  [info] loading settings for project spark-project-build from metals.sbt ...
+2024.05.09 15:18:15 INFO  [info] loading project definition from /Users/saikumarreddynannuru/spark-project/project
+2024.05.09 15:18:17 INFO  [success] Generated .bloop/spark-project-build.json
+2024.05.09 15:18:17 INFO  [success] Total time: 1 s, completed May 9, 2024, 3:18:17 PM
+2024.05.09 15:18:19 INFO  [info] loading settings for project spark-project from build.sbt ...
+2024.05.09 15:18:19 INFO  [info] set current project to spark-project (in build file:/Users/saikumarreddynannuru/spark-project/)
+2024.05.09 15:18:22 INFO  [success] Generated .bloop/spark-project-test.json
+2024.05.09 15:18:22 INFO  [success] Generated .bloop/spark-project.json
+2024.05.09 15:18:22 INFO  [success] Total time: 2 s, completed May 9, 2024, 3:18:22 PM
+2024.05.09 15:18:22 INFO  time: ran 'sbt bloopInstall' in 9.46s
+2024.05.09 15:18:22 INFO  Shut down connection with build server.
+2024.05.09 15:18:22 INFO  Attempting to connect to the build server...
+2024.05.09 15:18:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:18:22 INFO  Attempting to connect to the build server...
+2024.05.09 15:18:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:18:22 INFO  time: Connected to build server in 0.51s
+2024.05.09 15:18:22 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 15:18:22 INFO  time: Imported build in 0.1s
+2024.05.09 15:18:26 INFO  time: code lens generation in 2.95s
+2024.05.09 15:18:30 ERROR issues while parsing: /Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar
+java.lang.Exception: Unexpected symbol at word pos: '92'. Line: '      "mon.CancelDelegationTokenRequestProto\\0321." +'
+	at scala.meta.internal.mtags.JavaToplevelMtags.kwOrIdent$1(JavaToplevelMtags.scala:166)
+	at scala.meta.internal.mtags.JavaToplevelMtags.parseToken$1(JavaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.JavaToplevelMtags.fetchToken(JavaToplevelMtags.scala:231)
+	at scala.meta.internal.mtags.JavaToplevelMtags.loop(JavaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.JavaToplevelMtags.indexRoot(JavaToplevelMtags.scala:36)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:21)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:20)
+	at scala.meta.internal.mtags.JavaToplevelMtags.index(JavaToplevelMtags.scala:12)
+	at scala.meta.internal.mtags.Mtags.indexWithOverrides(Mtags.scala:74)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:130)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:113)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:80)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:76)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:74)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:85)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:148)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:84)
+	at scala.meta.internal.metals.Indexer.indexJar$1(Indexer.scala:630)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:656)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:487)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:905)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:478)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:477)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:477)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$24(Indexer.scala:396)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23(Indexer.scala:389)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23$adapted(Indexer.scala:385)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:385)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.09 15:18:39 ERROR issues while parsing: /Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar
+java.lang.Exception: Unexpected symbol at word pos: '35'. Line: '<##include "/@includes/license.ftl" />'
+	at scala.meta.internal.mtags.JavaToplevelMtags.kwOrIdent$1(JavaToplevelMtags.scala:166)
+	at scala.meta.internal.mtags.JavaToplevelMtags.parseToken$1(JavaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.JavaToplevelMtags.fetchToken(JavaToplevelMtags.scala:231)
+	at scala.meta.internal.mtags.JavaToplevelMtags.loop(JavaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.JavaToplevelMtags.indexRoot(JavaToplevelMtags.scala:36)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:21)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:20)
+	at scala.meta.internal.mtags.JavaToplevelMtags.index(JavaToplevelMtags.scala:12)
+	at scala.meta.internal.mtags.Mtags.indexWithOverrides(Mtags.scala:74)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:130)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:113)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:80)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:76)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:74)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:85)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:148)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:84)
+	at scala.meta.internal.metals.Indexer.indexJar$1(Indexer.scala:630)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:656)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:487)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:905)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:478)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:477)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:477)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$24(Indexer.scala:396)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23(Indexer.scala:389)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23$adapted(Indexer.scala:385)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:385)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.09 15:18:41 INFO  time: indexed workspace in 18s
+2024.05.09 15:18:52 INFO  time: code lens generation in 10s
+2024.05.09 15:19:06 INFO  compiling spark-project (1 scala source)
+2024.05.09 15:19:16 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 15:19:16 INFO  time: compiled spark-project in 9.65s
+2024.05.09 15:19:16 INFO  time: compiled spark-project-test in 0.44s
+May 09, 2024 3:36:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2024.05.09 15:40:47 INFO  Shutting down server
+2024.05.09 15:40:47 INFO  shutting down Metals
+2024.05.09 15:40:47 INFO  Shut down connection with build server.
+2024.05.09 15:40:47 INFO  Shut down connection with build server.
+2024.05.09 15:40:47 INFO  Exiting server
+2024.05.09 15:40:58 INFO  Started: Metals version 1.3.0 in folders '/Users/saikumarreddynannuru/spark-project' for client Visual Studio Code 1.78.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@6af22919]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4c5dee21]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6af22919]
+2024.05.09 15:40:59 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.09 15:40:59 INFO  Attempting to connect to the build server...
+2024.05.09 15:40:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:40:59 INFO  Attempting to connect to the build server...
+2024.05.09 15:40:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:40:59 INFO  time: Connected to build server in 0.5s
+2024.05.09 15:40:59 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 15:41:00 INFO  time: Imported build in 0.16s
+2024.05.09 15:41:06 ERROR issues while parsing: /Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar
+java.lang.Exception: Unexpected symbol at word pos: '92'. Line: '      "mon.CancelDelegationTokenRequestProto\\0321." +'
+	at scala.meta.internal.mtags.JavaToplevelMtags.kwOrIdent$1(JavaToplevelMtags.scala:166)
+	at scala.meta.internal.mtags.JavaToplevelMtags.parseToken$1(JavaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.JavaToplevelMtags.fetchToken(JavaToplevelMtags.scala:231)
+	at scala.meta.internal.mtags.JavaToplevelMtags.loop(JavaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.JavaToplevelMtags.indexRoot(JavaToplevelMtags.scala:36)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:21)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:20)
+	at scala.meta.internal.mtags.JavaToplevelMtags.index(JavaToplevelMtags.scala:12)
+	at scala.meta.internal.mtags.Mtags.indexWithOverrides(Mtags.scala:74)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:130)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:113)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:80)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:76)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:74)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:85)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:148)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:84)
+	at scala.meta.internal.metals.Indexer.indexJar$1(Indexer.scala:630)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:656)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:487)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:905)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:478)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:477)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:477)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$24(Indexer.scala:396)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23(Indexer.scala:389)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23$adapted(Indexer.scala:385)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:385)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.09 15:41:09 ERROR issues while parsing: /Users/saikumarreddynannuru/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/12.0.1/arrow-vector-12.0.1-sources.jar
+java.lang.Exception: Unexpected symbol at word pos: '35'. Line: '<##include "/@includes/license.ftl" />'
+	at scala.meta.internal.mtags.JavaToplevelMtags.kwOrIdent$1(JavaToplevelMtags.scala:166)
+	at scala.meta.internal.mtags.JavaToplevelMtags.parseToken$1(JavaToplevelMtags.scala:225)
+	at scala.meta.internal.mtags.JavaToplevelMtags.fetchToken(JavaToplevelMtags.scala:231)
+	at scala.meta.internal.mtags.JavaToplevelMtags.loop(JavaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.JavaToplevelMtags.indexRoot(JavaToplevelMtags.scala:36)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:21)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:20)
+	at scala.meta.internal.mtags.JavaToplevelMtags.index(JavaToplevelMtags.scala:12)
+	at scala.meta.internal.mtags.Mtags.indexWithOverrides(Mtags.scala:74)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:130)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:113)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:80)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:76)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:74)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:85)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:148)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:84)
+	at scala.meta.internal.metals.Indexer.indexJar$1(Indexer.scala:630)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:656)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:487)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:905)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:478)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:477)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:477)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$24(Indexer.scala:396)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23(Indexer.scala:389)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$23$adapted(Indexer.scala:385)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:385)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:172)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.05.09 15:41:10 INFO  time: indexed workspace in 10s
+2024.05.09 15:44:41 INFO  skipping build import with status 'Installed'
+2024.05.09 15:44:41 INFO  Disconnecting from Bloop session...
+2024.05.09 15:44:41 INFO  Cancelling compilation on Bloop server
+2024.05.09 15:44:41 INFO  Shut down connection with build server.
+2024.05.09 15:44:41 INFO  Shut down connection with build server.
+2024.05.09 15:44:41 INFO  Attempting to connect to the build server...
+2024.05.09 15:44:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:44:41 INFO  Attempting to connect to the build server...
+2024.05.09 15:44:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:44:41 INFO  time: Connected to build server in 55ms
+2024.05.09 15:44:41 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 15:44:48 INFO  time: indexed workspace in 7.63s
+2024.05.09 15:44:48 INFO  compiling spark-project (1 scala source)
+2024.05.09 15:44:58 INFO  time: compiled spark-project in 9.1s
+2024.05.09 15:44:58 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 15:44:58 INFO  time: compiled spark-project-test in 1ms
+2024.05.09 15:46:32 INFO  skipping build import with status 'Installed'
+2024.05.09 15:46:32 INFO  Disconnecting from Bloop session...
+2024.05.09 15:46:32 INFO  Cancelling compilation on Bloop server
+2024.05.09 15:46:32 INFO  Shut down connection with build server.
+2024.05.09 15:46:32 INFO  Shut down connection with build server.
+2024.05.09 15:46:32 INFO  Attempting to connect to the build server...
+2024.05.09 15:46:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:46:32 INFO  Attempting to connect to the build server...
+2024.05.09 15:46:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:46:32 INFO  time: Connected to build server in 91ms
+2024.05.09 15:46:32 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 15:46:40 INFO  time: indexed workspace in 7.56s
+2024.05.09 15:48:58 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 15:49:01 INFO  time: compiled spark-project-test in 2.27s
+2024.05.09 15:51:49 INFO  skipping build import with status 'Installed'
+2024.05.09 15:51:49 INFO  Disconnecting from Bloop session...
+2024.05.09 15:51:49 INFO  Cancelling compilation on Bloop server
+2024.05.09 15:51:49 INFO  Shut down connection with build server.
+2024.05.09 15:51:49 INFO  Shut down connection with build server.
+May 09, 2024 3:51:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.05.09 15:51:49 INFO  Scala main classes not supported by server
+2024.05.09 15:51:49 INFO  Attempting to connect to the build server...
+2024.05.09 15:51:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:51:49 INFO  Attempting to connect to the build server...
+2024.05.09 15:51:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:51:49 INFO  time: Connected to build server in 54ms
+2024.05.09 15:51:49 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 15:51:57 INFO  time: indexed workspace in 8.65s
+2024.05.09 15:52:56 INFO  compiling spark-project (1 scala source)
+2024.05.09 15:52:59 INFO  skipping build import with status 'Installed'
+2024.05.09 15:52:59 INFO  Disconnecting from Bloop session...
+2024.05.09 15:52:59 INFO  Cancelling compilation on Bloop server
+2024.05.09 15:52:59 INFO  Cancelling compilation on Bloop server
+2024.05.09 15:52:59 INFO  Shut down connection with build server.
+2024.05.09 15:52:59 INFO  Deduplicating compilation of spark-project from bsp client 'Metals 1.3.0' (since 1m 10.478s)
+2024.05.09 15:52:59 INFO  compiling spark-project (1 scala source)
+2024.05.09 15:52:59 INFO  Shut down connection with build server.
+2024.05.09 15:52:59 INFO  Attempting to connect to the build server...
+2024.05.09 15:52:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:52:59 INFO  Attempting to connect to the build server...
+2024.05.09 15:52:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 15:52:59 INFO  time: Connected to build server in 96ms
+2024.05.09 15:52:59 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 15:52:59 INFO  time: Imported build in 0.2s
+2024.05.09 15:53:08 INFO  time: indexed workspace in 8.75s
+2024.05.09 16:06:02 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:06:03 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:06:03 INFO  time: compiled spark-project in 1.71s
+2024.05.09 16:06:03 INFO  time: compiled spark-project-test in 0.51s
+2024.05.09 16:09:56 INFO  skipping build import with status 'Installed'
+2024.05.09 16:09:56 INFO  Disconnecting from Bloop session...
+2024.05.09 16:09:56 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:09:56 INFO  Shut down connection with build server.
+2024.05.09 16:09:56 INFO  Shut down connection with build server.
+2024.05.09 16:09:56 INFO  Attempting to connect to the build server...
+2024.05.09 16:09:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:09:56 INFO  Attempting to connect to the build server...
+2024.05.09 16:09:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:09:56 INFO  time: Connected to build server in 75ms
+2024.05.09 16:09:56 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:10:05 INFO  time: indexed workspace in 8.84s
+2024.05.09 16:12:35 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:12:37 INFO  time: compiled spark-project in 1.41s
+2024.05.09 16:12:37 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:12:37 INFO  time: compiled spark-project-test in 0.39s
+2024.05.09 16:15:49 INFO  skipping build import with status 'Installed'
+2024.05.09 16:15:49 INFO  Disconnecting from Bloop session...
+2024.05.09 16:15:49 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:15:49 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:15:49 INFO  Shut down connection with build server.
+2024.05.09 16:15:49 INFO  Shut down connection with build server.
+2024.05.09 16:15:49 INFO  Attempting to connect to the build server...
+2024.05.09 16:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:15:49 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:15:49 INFO  Attempting to connect to the build server...
+2024.05.09 16:15:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:15:49 INFO  time: Connected to build server in 0.13s
+2024.05.09 16:15:49 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:15:58 INFO  time: indexed workspace in 8.46s
+2024.05.09 16:15:58 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:15:59 INFO  no build target found for /Users/saikumarreddynannuru/spark-project/ProviderReport.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.05.09 16:15:59 INFO  time: compiled spark-project in 1.41s
+May 09, 2024 4:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 219
+May 09, 2024 4:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+May 09, 2024 4:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+May 09, 2024 4:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+May 09, 2024 4:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+2024.05.09 16:15:59 INFO  time: code lens generation in 10s
+2024.05.09 16:16:05 INFO  skipping build import with status 'Installed'
+2024.05.09 16:16:05 INFO  Disconnecting from Bloop session...
+2024.05.09 16:16:05 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:16:05 INFO  Shut down connection with build server.
+2024.05.09 16:16:05 INFO  Shut down connection with build server.
+May 09, 2024 4:16:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.05.09 16:16:05 INFO  Scala main classes not supported by server
+2024.05.09 16:16:05 INFO  Scala test classes not supported by server
+2024.05.09 16:16:05 INFO  Attempting to connect to the build server...
+2024.05.09 16:16:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:16:05 INFO  Attempting to connect to the build server...
+2024.05.09 16:16:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:16:05 INFO  time: Connected to build server in 78ms
+2024.05.09 16:16:05 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:16:14 INFO  time: indexed workspace in 9.16s
+2024.05.09 16:16:17 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:16:19 INFO  skipping build import with status 'Installed'
+2024.05.09 16:16:19 INFO  Disconnecting from Bloop session...
+2024.05.09 16:16:19 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:16:19 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:16:19 INFO  Shut down connection with build server.
+2024.05.09 16:16:21 ERROR timeout: build server 'bloop' during shutdown
+2024.05.09 16:16:21 INFO  Attempting to connect to the build server...
+2024.05.09 16:16:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:16:21 INFO  Attempting to connect to the build server...
+2024.05.09 16:16:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:16:21 INFO  time: Connected to build server in 0.13s
+2024.05.09 16:16:21 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:16:28 INFO  time: compiled spark-project-test in 10s
+2024.05.09 16:16:37 INFO  time: indexed workspace in 9.23s
+2024.05.09 16:19:02 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:19:03 INFO  time: compiled spark-project-test in 1.02s
+2024.05.09 16:20:38 INFO  skipping build import with status 'Installed'
+2024.05.09 16:20:38 INFO  Disconnecting from Bloop session...
+2024.05.09 16:20:38 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:20:38 INFO  Shut down connection with build server.
+2024.05.09 16:20:38 INFO  Shut down connection with build server.
+2024.05.09 16:20:38 INFO  Attempting to connect to the build server...
+2024.05.09 16:20:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:20:38 INFO  Attempting to connect to the build server...
+2024.05.09 16:20:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:20:38 INFO  time: Connected to build server in 75ms
+2024.05.09 16:20:38 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:20:46 INFO  time: indexed workspace in 7.21s
+2024.05.09 16:20:46 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:20:55 INFO  time: compiled spark-project in 9.6s
+2024.05.09 16:20:55 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:20:55 INFO  time: compiled spark-project-test in 4ms
+2024.05.09 16:22:14 INFO  skipping build import with status 'Installed'
+2024.05.09 16:22:14 INFO  Disconnecting from Bloop session...
+2024.05.09 16:22:14 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:22:14 INFO  Shut down connection with build server.
+2024.05.09 16:22:14 INFO  Shut down connection with build server.
+May 09, 2024 4:22:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.05.09 16:22:14 INFO  Attempting to connect to the build server...
+2024.05.09 16:22:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:22:14 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:22:14 INFO  Attempting to connect to the build server...
+2024.05.09 16:22:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:22:14 INFO  time: Connected to build server in 65ms
+2024.05.09 16:22:14 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:22:23 INFO  time: indexed workspace in 8.26s
+2024.05.09 16:23:30 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:23:32 INFO  time: compiled spark-project-test in 1.8s
+2024.05.09 16:33:37 INFO  skipping build import with status 'Installed'
+2024.05.09 16:33:37 INFO  Disconnecting from Bloop session...
+2024.05.09 16:33:37 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:33:37 INFO  Shut down connection with build server.
+2024.05.09 16:33:38 INFO  Shut down connection with build server.
+2024.05.09 16:33:38 INFO  Attempting to connect to the build server...
+2024.05.09 16:33:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:33:38 INFO  Attempting to connect to the build server...
+2024.05.09 16:33:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:33:38 INFO  time: Connected to build server in 0.26s
+2024.05.09 16:33:38 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:33:38 INFO  time: Imported build in 0.24s
+2024.05.09 16:33:47 INFO  time: indexed workspace in 8.51s
+2024.05.09 16:35:54 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:35:55 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:35:55 INFO  time: compiled spark-project in 1.55s
+2024.05.09 16:35:55 INFO  time: compiled spark-project-test in 0.27s
+2024.05.09 16:36:00 INFO  skipping build import with status 'Installed'
+2024.05.09 16:36:00 INFO  Disconnecting from Bloop session...
+2024.05.09 16:36:00 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:36:00 INFO  Shut down connection with build server.
+2024.05.09 16:36:00 INFO  Shut down connection with build server.
+2024.05.09 16:36:00 INFO  Attempting to connect to the build server...
+2024.05.09 16:36:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:36:00 INFO  Attempting to connect to the build server...
+2024.05.09 16:36:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:36:00 INFO  time: Connected to build server in 72ms
+2024.05.09 16:36:00 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:36:00 INFO  time: Imported build in 0.11s
+2024.05.09 16:36:08 INFO  time: indexed workspace in 7.48s
+2024.05.09 16:36:08 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:36:16 INFO  time: compiled spark-project-test in 7.79s
+2024.05.09 16:41:05 INFO  skipping build import with status 'Installed'
+2024.05.09 16:41:05 INFO  Disconnecting from Bloop session...
+2024.05.09 16:41:05 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:41:05 INFO  Shut down connection with build server.
+2024.05.09 16:41:05 INFO  Shut down connection with build server.
+May 09, 2024 4:41:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.05.09 16:41:05 INFO  Scala main classes not supported by server
+2024.05.09 16:41:05 INFO  Attempting to connect to the build server...
+2024.05.09 16:41:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:41:05 INFO  Attempting to connect to the build server...
+2024.05.09 16:41:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:41:05 INFO  time: Connected to build server in 98ms
+2024.05.09 16:41:05 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:41:12 INFO  skipping build import with status 'Started'
+2024.05.09 16:41:12 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:41:15 INFO  time: compiled spark-project in 2.36s
+2024.05.09 16:41:15 INFO  time: indexed workspace in 9.33s
+2024.05.09 16:41:15 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:41:23 INFO  time: compiled spark-project-test in 8.51s
+2024.05.09 16:47:58 INFO  skipping build import with status 'Installed'
+2024.05.09 16:47:58 INFO  Disconnecting from Bloop session...
+2024.05.09 16:47:58 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:47:58 INFO  Shut down connection with build server.
+2024.05.09 16:47:58 INFO  Shut down connection with build server.
+May 09, 2024 4:47:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.05.09 16:47:58 INFO  Attempting to connect to the build server...
+2024.05.09 16:47:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:47:58 INFO  Attempting to connect to the build server...
+2024.05.09 16:47:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:47:58 INFO  time: Connected to build server in 0.33s
+2024.05.09 16:47:58 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:47:59 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:47:58 INFO  time: Imported build in 0.48s
+2024.05.09 16:48:03 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:48:03 INFO  time: compiled spark-project in 0.37s
+2024.05.09 16:48:03 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:48:03 INFO  time: compiled spark-project in 0.17s
+2024.05.09 16:48:03 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:48:03 INFO  time: compiled spark-project in 0.12s
+2024.05.09 16:48:03 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:48:03 INFO  time: compiled spark-project in 0.12s
+2024.05.09 16:48:08 INFO  time: indexed workspace in 8.61s
+2024.05.09 16:49:04 INFO  skipping build import with status 'Installed'
+2024.05.09 16:49:04 INFO  Disconnecting from Bloop session...
+2024.05.09 16:49:04 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:49:04 INFO  Shut down connection with build server.
+2024.05.09 16:49:04 INFO  Shut down connection with build server.
+May 09, 2024 4:49:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:411)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:175)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:167)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.05.09 16:49:04 INFO  Scala test classes not supported by server
+2024.05.09 16:49:04 INFO  Attempting to connect to the build server...
+2024.05.09 16:49:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:49:04 INFO  Attempting to connect to the build server...
+May 09, 2024 4:49:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+2024.05.09 16:49:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:49:04 INFO  time: Connected to build server in 0.12s
+2024.05.09 16:49:04 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:49:13 INFO  time: indexed workspace in 9.21s
+2024.05.09 16:49:13 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:49:15 INFO  no build target found for /Users/saikumarreddynannuru/spark-project/ProviderReport.scala. Using presentation compiler with project's scala-library version: 2.12.19
+May 09, 2024 4:49:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 572
+2024.05.09 16:49:15 INFO  skipping build import with status 'Installed'
+2024.05.09 16:49:15 INFO  Disconnecting from Bloop session...
+2024.05.09 16:49:15 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:49:15 INFO  Cancelling compilation on Bloop server
+2024.05.09 16:49:15 INFO  Shut down connection with build server.
+2024.05.09 16:49:15 INFO  Deduplicating compilation of spark-project from bsp client 'Metals 1.3.0' (since 11.569s)
+2024.05.09 16:49:15 INFO  compiling spark-project (1 scala source)
+2024.05.09 16:49:15 INFO  time: compiled spark-project in 0.46s
+2024.05.09 16:49:15 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:49:15 INFO  time: code lens generation in 11s
+2024.05.09 16:49:17 INFO  time: compiled spark-project-test in 0.72s
+2024.05.09 16:49:17 INFO  Shut down connection with build server.
+2024.05.09 16:49:17 INFO  Attempting to connect to the build server...
+2024.05.09 16:49:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:49:17 INFO  Attempting to connect to the build server...
+2024.05.09 16:49:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saikumarreddynannuru/spark-project/project/.metals/bsp.trace.json or /Users/saikumarreddynannuru/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.09 16:49:17 INFO  time: Connected to build server in 41ms
+2024.05.09 16:49:17 INFO  Connected to Build server: Bloop v1.5.17
+2024.05.09 16:49:20 INFO  skipping build import with status 'Started'
+2024.05.09 16:49:26 INFO  time: indexed workspace in 9.55s
+2024.05.09 16:49:49 INFO  compiling spark-project-test (1 scala source)
+2024.05.09 16:49:51 INFO  time: compiled spark-project-test in 1.78s

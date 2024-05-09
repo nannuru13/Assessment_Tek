@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/saikumarreddynannuru/spark-project/ProviderReport.scala:58:15: not found: type FileNotFoundException[0m
+[0m[[0m[31merror[0m] [0m[0m      case e: FileNotFoundException =>[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/saikumarreddynannuru/spark-project/ProviderReport.scala:60:15: not found: type AnalysisException[0m
+[0m[[0m[31merror[0m] [0m[0m      case e: AnalysisException =>[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
